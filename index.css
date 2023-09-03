@@ -3,12 +3,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
+    padding: 50px 150px 0px;
+
 
 
 }
 
-#first-section {
-    margin: 150px 150px;
+.first-section {
+
     font-size: 1.5em;
 
 
@@ -24,4 +26,31 @@
     text-align: center;
     color: white;
     background-color: rgba(229, 84, 115, 1);
+    border-radius: 5px;
+}
+
+.allPics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.photo {
+    margin-left: 50px;
+    padding-left: 23px;
+}
+
+.picsBack {
+    text-align: center;
+}
+
+.picsBack h1 {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: beige;
 }
