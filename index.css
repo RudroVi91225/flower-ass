@@ -1,0 +1,27 @@
+.firstANdThirdsection {
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+
+}
+
+#first-section {
+    margin: 150px 150px;
+    font-size: 1.5em;
+
+
+}
+
+
+
+
+
+.shopButton {
+
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    background-color: rgba(229, 84, 115, 1);
+}
